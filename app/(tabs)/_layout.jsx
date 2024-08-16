@@ -4,6 +4,7 @@ import { Slot } from 'expo-router'
 import {Tabs,Redirect} from 'expo-router'
 import {icons} from "../../constants"
 import { Image } from 'react-native'
+
 const TabIcon = ({ icon, color, name, focused }) => {
   return (
     <View className="flex items-center justify-center gap-2">
@@ -36,6 +37,7 @@ const TabsLayOut = () => {
             borderTopWidth: 1,
             borderTopColor: "#232533",
             height: 84,
+            paddingTop : 10
           },
         }}
         
